@@ -9,3 +9,7 @@ console.log("le email degli invitati sono: " + invitati)
 const mailUtente = prompt("Inserisci la tua mail")
 
 console.log("La mail inserita dall'utente è: " + mailUtente)
+
+for (let i = 0; i < invitati.length; i++) {
+    console.log(invitati[i])
+}
