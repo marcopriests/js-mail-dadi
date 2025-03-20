@@ -40,4 +40,5 @@ Ragionamento Dadi:
 - creo una variabile a cui assegno un valore numerico randomico tra 1 e 6. Sarà il numero del computer
 - effettuo un controllo per verificare quale dei due valori è maggiore
     - se è maggiore il numero dell'utente, stampo: "Congratulazioni hai vinto! il tuo numero era X mentre quello del tuo avversario Y"
+    - se sono uguali stampo: "Pareggio! Entrambi i numeri erano X."
     - se è maggiore il numero del computer, stampo: "Mi dispiace, hai perso. il tuo numero era X mentre quello del tuo avversario Y"
