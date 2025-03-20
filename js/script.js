@@ -10,6 +10,8 @@ const mailUtente = prompt("Inserisci la tua mail")
 
 console.log("La mail inserita dall'utente è: " + mailUtente)
 
+let isChecked = false
+
 for (let i = 0; i < invitati.length; i++) {
 
     if (mailUtente == invitati[i]) {
