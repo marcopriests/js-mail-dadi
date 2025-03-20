@@ -20,3 +20,12 @@ Consigli del giorno:
     proviamo ad immaginare le operazioni che vogliamo far svolgere al nostro programma così come lo faremmo "a mano"
 
 Buon lavoro e buon divertimento!
+
+Ragionamento Mail:
+
+- creo un array di mail inventate da me
+- dichiaro una variabile in cui salvo la mail che andrà ad inserire l'utente
+- creo un ciclo per controllare se la mail inserita dall'utente corrisponde ad una contenuta nella lista
+- effettuo un controllo per verificare se la mail inserita dall'utente corrisponde ad una presente nella lista 
+    - se la mail corrisponde: stampo un messaggio "benvenuto alla festa"
+    - se la mail non corrisponde stampo un messaggio: "mi dispiace ma non sei ammesso"
