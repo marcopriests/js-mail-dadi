@@ -31,3 +31,13 @@ Ragionamento Mail:
     - se la mail non corrisponde stampo un messaggio: "mi dispiace ma non sei ammesso"
 - creo una variabile di controllo e la inizializzo false
 - aggiungo la variabile di controllo nella condizione di fine ciclo
+
+
+
+Ragionamento Dadi:
+
+- creo una variabile in cui comunico all'utente il numero randomico tra 1 e 6 scelto per lui.
+- creo una variabile a cui assegno un valore numerico randomico tra 1 e 6. Sarà il numero del computer
+- effettuo un controllo per verificare quale dei due valori è maggiore
+    - se è maggiore il numero dell'utente, stampo: "Congratulazioni hai vinto! il tuo numero era X mentre quello del tuo avversario Y"
+    - se è maggiore il numero del computer, stampo: "Mi dispiace, hai perso. il tuo numero era X mentre quello del tuo avversario Y"

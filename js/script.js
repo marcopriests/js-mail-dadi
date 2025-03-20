@@ -29,3 +29,6 @@ if (isChecked) {
     console.log("Mi dispiace, non può entrare.")
 
 }
+
+
+// Dadi
