@@ -29,3 +29,5 @@ Ragionamento Mail:
 - effettuo un controllo per verificare se la mail inserita dall'utente corrisponde ad una presente nella lista 
     - se la mail corrisponde: stampo un messaggio "benvenuto alla festa"
     - se la mail non corrisponde stampo un messaggio: "mi dispiace ma non sei ammesso"
+- creo una variabile di controllo e la inizializzo false
+- aggiungo la variabile di controllo nella condizione di fine ciclo

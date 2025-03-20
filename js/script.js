@@ -11,5 +11,10 @@ const mailUtente = prompt("Inserisci la tua mail")
 console.log("La mail inserita dall'utente è: " + mailUtente)
 
 for (let i = 0; i < invitati.length; i++) {
-    console.log(invitati[i])
+
+    if (mailUtente == invitati[i]) {
+        console.log("Benvenuto alla festa!")
+    } else {
+        console.log("Mi dispiace, non può entrare.")
+    }
 }
