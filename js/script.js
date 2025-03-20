@@ -34,3 +34,8 @@
 
 //Variabile numero Utente
 const numUtente = confirm(Math.floor(Math.random() * 6) + 1)
+
+//variabile numero cpu
+const numComputer = Math.floor(Math.random() * 6) + 1
+
+console.log(numComputer)
