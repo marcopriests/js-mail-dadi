@@ -12,11 +12,20 @@ console.log("La mail inserita dall'utente è: " + mailUtente)
 
 let isChecked = false
 
-for (let i = 0; i < invitati.length; i++) {
+for (let i = 0; isChecked == false && i < invitati.length; i++) {
 
     if (mailUtente == invitati[i]) {
-        console.log("Benvenuto alla festa!")
-    } else {
-        console.log("Mi dispiace, non può entrare.")
+        isChecked = true
     }
+
+}
+
+if (isChecked) {
+    
+    console.log("Benvenuto alla festa!")
+    
+} else {
+
+    console.log("Mi dispiace, non può entrare.")
+
 }
